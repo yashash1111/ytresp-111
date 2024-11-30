@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.main{
+    display: grid;
+    grid-template-columns: 15% 80%;
+}
+
+.menu{
+    background-color: rgba(55, 54, 54, 0.363);
+    height: 100%;
+
+}
+.content{
+    display: inline;
+
+ 
+
+}
+.home,.explore,.shorts,.subs,.library,.history,.yourvideos,.watchlater,.liked,.show,.explore
+,.sub1{
+    margin: 15px;
+}
+.bar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+}
+.bar1{
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.hambarger{
+    margin-left: 7px;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+input{
+    display: flex;
+    margin-left: 350px ;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+
+}
+.top{
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    margin-left: 10px;
+}
+.top1{
+    position: absolute;
+    left: 1060px;
+    top:12px ;
+    width: 30px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.219);
+    border-color: grey; 
+}
+.topprofile4{
+    position: absolute;
+    right: 75px;
+    width: 30px;
+    top: 10px;
+}
+.topprofile3{
+    position: absolute;
+    right: 130px;
+    width: 30px;
+    top: 10px;
+}
+.topprofile2{
+    position: absolute;
+    right: 180px;
+    width: 30px;
+    top: 10px;
+}
+.topprofile1{
+    position: absolute;
+    right: 220px;
+    width: 30px;
+    top: 10px;
+}
+hr{
+    margin-top: 10px;
+}
+button{
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding: 7px;
+    background-color:  rgb(85, 84, 84);
+    color: white;
+    border: none;
+}
+.all{
+    background-color: white;
+    color: black;
+}
+.videos{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+.details{
+    display: inline;
+    color: white;
+}
+.Img{
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+.discription{
+    color: grey;
+}
+.videos{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px ;
+    gap: 15px;
+    margin: 30px;
+}
+.tick{
+    height: 15px;
+}
+.profileimg{
+    margin-top: 10px;
+}
+span{
+    font-size: 13px;
+}
+.tick{
+    width: 15px;
+    margin-top: 5px;
+}
+@media(max-width:500px){
+    .hambarger{
+        display: none;
+    }
+    .logo{
+        margin-left: 3px;
+    }
+    .bar,.bar1,input{
+        display: none;
+    }
+    .top{
+        right: 170px;
+    }
+    .more{
+        margin-top: 50px;
+    }
+    .sub1{
+        display: none;
+    }
+    
+    hr{
+        margin-top: 1px;
+    }
+    .topprofile4{
+        right: 10px;
+    }
+    .topprofile3{
+        right: 50px;
+    }
+    .topprofile2{
+        right:90px ;
+    }
+    .topprofile1{
+        right: 130px;
+    }
+    .videos{
+        display: grid;
+        grid-template-columns: 300px;
+
+    }
+
+}
+@media(max-width:800px)and (min-width:500px){
+    .content{
+        overflow-x: hidden;
+    }
+   .hambarger{
+    display: none;
+   }
+   .logo{
+    margin-left: 10px;
+   }
+   .bar{
+    font-size: 12px;
+    margin: 5px;
+   }
+   .bar1{
+    font-size: 13px;
+    margin-left: 5px;
+   }
+   input{
+    display: none;
+   }
+   .more{
+    margin-top: 50px;
+   }
+   .topprofile4{
+    right: 40px;
+   }
+   .topprofile3{
+    right: 80px;
+   }
+   .topprofile2{
+    right: 120px;
+   }
+   .topprofile1{
+    right: 160px;
+   }
+   .top{
+    right:200px ;
+   }
+   .top1{
+    right: 240px;
+   }
+   
+   .videos{
+    display: grid;
+    grid-template-columns: 300px 300px;
+   }
+}
+@media (max-width:700px) {
+    .bar{
+        display: none;
+    }
+    .bar1{
+      font-size: 10px;
+    }
+    
+}
